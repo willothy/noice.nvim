@@ -179,6 +179,7 @@ M.defaults = {
       winhighlight = {
         Normal = "NoiceCmdline",
         IncSearch = "",
+        CurSearch = "",
         Search = "",
       },
     },
@@ -205,6 +206,7 @@ M.defaults = {
       winhighlight = {
         Normal = "NoiceMini",
         IncSearch = "",
+        CurSearch = "",
         Search = "",
       },
     },
@@ -233,6 +235,7 @@ M.defaults = {
         Normal = "NoiceCmdlinePopup",
         FloatBorder = "NoiceCmdlinePopupBorder",
         IncSearch = "",
+        CurSearch = "",
         Search = "",
       },
       cursorline = false,
