@@ -85,6 +85,7 @@ M.defaults = {
   },
   cmdline_popupmenu = {
     view = "popupmenu",
+    zindex = 200,
   },
   virtualtext = {
     backend = "virtualtext",
@@ -225,7 +226,7 @@ M.defaults = {
     relative = "editor",
     focusable = false,
     enter = false,
-    zindex = 60,
+    zindex = 200,
     position = {
       row = "50%",
       col = "50%",
@@ -259,7 +260,7 @@ M.defaults = {
     focusable = false,
     align = "center",
     enter = false,
-    zindex = 60,
+    zindex = 210,
     format = { "{confirm}" },
     position = {
       row = "50%",
